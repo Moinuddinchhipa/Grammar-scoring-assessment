@@ -27,7 +27,7 @@ A deep learning-based Grammar Scoring Engine built using PyTorch and Torchaudio.
 ---
 
 1. Clone the repository
-git clone [https://github.com/your-username/GrammarScoringEngine.git](https://github.com/Moinuddinchhipa/Grammar-scoring-assessment/edit/main)
+git clone https://github.com/Moinuddinchhipa/Grammar-scoring-assessment/edit/main
 cd GrammarScoringEngine
 
 2. Set up a virtual environment
