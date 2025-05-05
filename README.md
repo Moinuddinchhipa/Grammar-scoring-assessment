@@ -53,5 +53,36 @@ Layers: Linear -> ReLU -> Dropout -> Linear
 Output: Single score (float)
 Modify create_model() function in main.py to experiment with architectures.
 
+2. Outputs
+Trained model: best_model.pt
+
+Predictions on test data: submission.csv
+🧪 Example Output
+Epoch 1, Loss: 14.0984
+...
+Epoch 10, Loss: 1.1113
+Train RMSE: 1.0478
+Train Pearson Correlation: -0.0008
+Model saved as best_model.pt
+Submission saved to submission.csv
+
+📊 Evaluation Metrics
+RMSE (Root Mean Squared Error) for loss
+
+Pearson Correlation Coefficient between predicted and actual scores
+
+⚙️ Dependencies
+Python 3.8+
+
+PyTorch
+
+torchaudio
+
+pandas
+
+numpy
+
+scikit-learn
+
 
 
